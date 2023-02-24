@@ -1,0 +1,11 @@
+framework module Test_SPMXC {
+  umbrella header "Test_SPMXC.h"
+
+  export *
+  module * { export * }
+}
+
+module Test_SPMXC.Swift {
+  header "Test_SPMXC-Swift.h"
+  requires objc
+}
